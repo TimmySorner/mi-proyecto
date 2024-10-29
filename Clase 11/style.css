@@ -1,0 +1,47 @@
+.list ul 
+{
+    list-style: none !important;
+    display: flex;
+    flex-direction: row !;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.list li:hover 
+{
+    background-color: green !important;
+    cursor: pointer;
+    color: aliceblue;
+}
+.list li
+{
+    padding: 5px;
+    border: 2px solid gray ;
+    margin: 20px;
+
+
+}
+.list{
+    display: flex !important;
+    align-items: center !important;
+    align-content: center;
+    justify-content: center !important;
+    
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Alinea verticalmente si hay diferencia de altura */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    font-size: large;
+  }
+
+#pp1, #pp2 {
+    border: solid 1px ;
+    margin: 5px;
+}
+
+
